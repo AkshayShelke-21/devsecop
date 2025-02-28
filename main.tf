@@ -1,8 +1,8 @@
 provider "aws" {
-    region = "ap-south-1"
+  region = "ap-south-1"
 }
 
-resource "aws_instance" "example" {
-    ami           = "ami-0c55b159cbfafe1f0"
-    instance_type = "t2.micro"
+resource "aws_instance" "akshayks-aws-instance" {
+  ami           = "ami-0d682f26195e9ec0f"
+  instance_type = "t2.micro"
 }
